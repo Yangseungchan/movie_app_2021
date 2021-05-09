@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+.navigator--link {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding-right: 30px;
+}
+
+.navigator--link:not(:first-child) {
+  margin-left: 30px;
+}
+
+.navigator--link:not(:last-child) {
+  border-right: 2px solid white;
+}
+
+.navigator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
